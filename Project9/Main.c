@@ -15,6 +15,6 @@ int main()
 	GetLocalTime(&lt);
 	printf("Time: %d:%d\n", lt.wHour, lt.wMinute);
 	printf("Date: %d.%d.%d\n", lt.wDay, lt.wMonth, lt.wYear);
-	system("pause");
+	getchar();
 	return 0;
 }
