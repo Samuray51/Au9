@@ -1,0 +1,7 @@
+﻿1.Написать свой аналог SysInfo.exe (можно дополнить функционал)
+
+Потенциально полезные для вас функции:
+GetUserName
+GetComputerName
+time
+localtime_s
