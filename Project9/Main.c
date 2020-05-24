@@ -13,8 +13,8 @@ int main()
 	GetComputerName(buf2, &size);
 	printf("Computeername: %s\n", buf2);
 	GetLocalTime(&lt);
-	printf("Time: %d:%d\n", lt.wHour, lt.wMinute);
-	printf("Date: %d.%d.%d\n", lt.wDay, lt.wMonth, lt.wYear);
+	printf("Time: %.2d:%.2d\n", lt.wHour, lt.wMinute);
+	printf("Date: %.2d.%.2d.%d\n", lt.wDay, lt.wMonth, lt.wYear);
 	getchar();
 	return 0;
 }
